@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08/09/2020, 20:39:59
+    Author     : Maxi
+*/
+
+.titulo {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/img 2.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.center{
+    opacity: 0.9;
+    background: #82E0AA;
+    margin-top: 150px;
+    padding: 3px;
+}
+
+.cantidad{
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+}
+
+.de {
+    color: green;
+    width: 25%;
+    padding: 10px;
+}
+
+.a {
+    color: green;
+    width: 25%;
+    padding: 10px;
+}
+
+.res {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input [type="number"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+
+@media(min-width: 768px){
+    .center{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}

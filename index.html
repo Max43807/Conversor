@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Devisas Gringotts</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="JS/Script.js"></script>
+        <link rel="stylesheet" href="Style/CSS.css"/>
+        <link rel="icon" href="img/img 1.png"/>
+    </head>
+    <body>
+    <center class="center">
+        <h1 class="titulo">Conversor de Divisas</h1>
+        <span style="color: white;">Cantidad:</span> <input class="cantidad" type="number" id="cantidad" placeholder="Ingrese una cantidad">
+        <br><br>
+        <span style='color: white;'>Convertir De:</span>
+        <select class="de" id="de">
+            <option value="1">Peso ARG</option>
+            <option value="2">Euro</option>
+            <option value="3">Dollar USD</option>
+            <option value="4">Libra</option>
+            <option value="5">Real BR</option>
+        </select><br><br>
+        <span style='color: white;'>Convertir A:</span>
+        <select class="a" id="a">
+            <option value="1">Peso ARG</option>
+            <option value="2">Euro</option>
+            <option value="3">Dollar USD</option>
+            <option value="4">Libra</option>
+            <option value="5">Real BR</option>
+        </select><br>
+        <h1  class="res" id="resultado">Conversión: $0.00</h1>
+        <input type="button" value="Convertir" onclick="convertir()">
+    </center>
+    </body>
+</html>
